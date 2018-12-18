@@ -1,0 +1,53 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "frases sobre chuck norris",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "stop",
+                        "para",
+                        "cancela",
+                        "cancel"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "gracias",
+                        "stop",
+                        "para",
+                        "cancela",
+                        "cancel"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "QuoteIntent",
+                    "slots": [],
+                    "samples": [
+                        "cuéntame una frase de chuck norris",
+                        "dime una frase de chuck norris",
+                        "cuéntame otra",
+                        "dime otra",
+                        "cuéntame otra frase",
+                        "dime otra frase",
+                        "cuéntame una frase",
+                        "dime una frase",
+                        "una más",
+                        "otra"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
