@@ -1,22 +1,22 @@
-# Skill para Alexa con frases sobre Chuck Norris #
+# Alexa Skill with Chuck Norris quotes #
 
-Este es un Skill para Alexa con frases sobre Chuck Norris desarrollado en Java 8 para ser desplegado como una Lambda en AWS.
+This is a Skill for Alexa with famous Chuck Norris phrases developed in Java 8 to be deployed as a Lambda on AWS.
 
-En la carpeta **src/model** está definido el skill de Alexa con los *intents* y frases de entrenamiento.
+In the **src/model** folder, there is the model defined for the Alexa skill with the *intents* and training phrases.
 
-Se ha utilizado Gradle en lugar de Maven para poder usar el plugin que existe para AWS que permite desplegar la función directamente en Lambda con ayuda del comando:
+Gradle has been used instead of Maven in order to be able to use the plugin that exists for AWS that allows to deploy the function directly in Lambda with the help of the command:
 
 ```bash
 gradlew clean deploy
 ```
 
-El plugin requiere un fichero con las credenciales **AWSAccessKeyId** y **AWSSecretKey** que debe guardarse en la carpeta:
+The plugin requires a file with the credentials **AWSAccessKeyId** and **AWSSecretKey** to be saved in the folder:
 
 ```bash
 ~/.aws/credentials
 ```
 
-Ejemplo:
+Example:
 
 ```
 [default]
@@ -24,6 +24,6 @@ aws_access_key_id=XXXXXXXXXXXXXXXXXXXX
 aws_secret_access_key=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ```
 
-Estas credenciales se utilizan para poder acceder a la API. El formato del archivo de credenciales se describe en los documentos de [Amazon AWS](https://docs.aws.amazon.com/sdk-for-java/v2/developer-guide/credentials.html#credentials-file-format).
+These credentials are used to access the API. The format of the credentials file is described in the [Amazon AWS documents.](https://docs.aws.amazon.com/sdk-for-java/v2/developer-guide/credentials.html#credentials-file-format).
 
 Enjoy!!!
