@@ -24,6 +24,6 @@ aws_access_key_id=XXXXXXXXXXXXXXXXXXXX
 aws_secret_access_key=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ```
 
-These credentials are used to access the API. The format of the credentials file is described in the [Amazon AWS documents.](https://docs.aws.amazon.com/sdk-for-java/v2/developer-guide/credentials.html#credentials-file-format).
+These credentials are used to access the API. The format of the credentials file is described in the [Amazon AWS documents](https://docs.aws.amazon.com/sdk-for-java/v2/developer-guide/credentials.html#credentials-file-format).
 
 Enjoy!!!
