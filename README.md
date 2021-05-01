@@ -1,4 +1,4 @@
-# Alexa Skill with Chuck Norris quotes #
+# Alexa Skill with Chuck Norris famous phrases #
 
 This is a Skill for Alexa with famous Chuck Norris phrases developed in Java 8 to be deployed as a Lambda on AWS.
 
